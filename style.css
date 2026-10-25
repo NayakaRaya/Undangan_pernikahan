@@ -41,7 +41,6 @@ body {
   box-shadow: var(--shadow-card);
   isolation: isolate;
 }
-/* Bingkai bagian dalam */
 .invitation-card::before {
   content: "";
   position: absolute;
@@ -50,7 +49,6 @@ body {
   border: 1px solid var(--color-line);
   pointer-events: none;
 }
-/* Aksen sudut sederhana */
 .corner {
   position: absolute;
   width: 28px;
@@ -238,7 +236,6 @@ h1 em {
   font-size: 1.65rem;
   line-height: 1;
 }
-/* Tampilan ponsel */
 @media (max-width: 520px) {
   .page-shell {
     padding: 18px 10px;
